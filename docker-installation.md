@@ -1,4 +1,7 @@
 yum install docker
+
 service docker start
-service docker enable
+
+systemctl enable docker
+
 docker run hello-world
